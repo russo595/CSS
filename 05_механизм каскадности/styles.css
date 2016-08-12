@@ -46,6 +46,10 @@ table {
 	background: #E9F5FE;
 }
 
+p {
+	text-indent: 1.5em;
+}
+
 body {
 	color: #b1967c;
 	font-family: "Palatino Linotype", Baskerville, serif;
@@ -53,6 +57,7 @@ body {
 	background: #CDE6FF url(images/bg_body.png) repeat-x;
 	max-width: 800px;
 	margin: 0 auto;
+	text-align: justify;
 }
 
 h1 {
@@ -80,4 +85,11 @@ h2 {
 	font-size: 1.1em;
 	line-height: 150%;
 	margin: 0 0 10px 80px;
+}
+
+p.intro {
+	color: #6a94cc;
+	 font-family: Arial, Helvetica, sans-serif;
+	font-size: 1.2em;
+	margin: 0 0 15px 0;
 }
