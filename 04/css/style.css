@@ -1,0 +1,25 @@
+@import url(http://fonts.googleapis.com/css?family=Kurale);
+@import url(https://fonts.googleapis.com/css?family=Comfortaa&subset=latin,cyrillic);
+
+body {
+	background-color: rgba(87,185,178,.5);
+}
+
+p {
+	color: rgb(50, 122, 167);
+	padding: 20px 0 20px 20px;
+	border-left: solid 25px rgba(255, 255, 255, .5);
+}
+
+.content {
+	font-family: "Helvetica Neue", Arial, Helvetica, sans-serif;
+	font-size: 18px;
+	color: rgb(194,91,116);
+	max-width: 900px;
+	margin: 0 auto;
+	line-height: 140%;
+}
+
+h1 {
+	padding-top: 20px;
+}
