@@ -10,20 +10,25 @@ time, mark, audio, video {
 	font: inherit;
 	vertical-align: baseline;
 }
+
 article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
 	display: block;
 }
+
 body {
 	line-height: 1.2;
 }
+
 ol { 
 	padding-left: 1.4em;
 	list-style: decimal;
 }
+
 ul {
 	padding-left: 1.4em
 	list-style: square;
 }
+
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
@@ -41,3 +46,38 @@ table {
 	background: #E9F5FE;
 }
 
+body {
+	color: #b1967c;
+	font-family: "Palatino Linotype", Baskerville, serif;
+	padding-top: 115px;
+	background: #CDE6FF url(images/bg_body.png) repeat-x;
+	max-width: 800px;
+	margin: 0 auto;
+}
+
+h1 {
+	font-size: 3em;
+	font-family: "Arial Black", Arial, sans-serif;
+	margin-bottom: 15px;
+}
+
+h2 {
+	font-size: 2.2em;
+	color: #AFC3D6;
+	margin-bottom: 5px;
+}
+
+.main h2 {
+	color: #e8a064;
+	border-bottom: 2px white solid;
+	background: url(images/bullet_flower.png) no-repeat;
+	padding: 0 0 2px 80px;
+}
+
+.main p {
+	color: #616161;
+	font-family: "Palatino Linotype", Baskerville, serif;
+	font-size: 1.1em;
+	line-height: 150%;
+	margin: 0 0 10px 80px;
+}
