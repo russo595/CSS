@@ -84,10 +84,17 @@ html {
 	color: rgb(153, 153, 153);
 }
 
-.main ul {
-	margin: 50px 0 25px 50px;
+.main .list {
 	width: 25%;
 	float: right;
+}
+
+.main ul {
+	margin: 50px 0 25px 25px;
+}
+
+.main ul:nth-child(odd) {
+	list-style-position: inside;
 }
 
 .main li {
