@@ -35,13 +35,13 @@ body {
 
 header {
 	background: rgb(255,214,94); 
-	background: linear-gradient(to bottom, rgb(100,100,100),rgb(0,0,0));  
-  padding-top: 20px;
+	background: linear-gradient(to bottom, rgb(100,100,100), rgb(0,0,0));  
+	padding-top: 20px;
 }
+
 .container {
 	width: 960px;
-	margin-right: auto;
-	margin-left: auto;
+	margin: 0 auto;
 	padding: 10px 0 30px 0;	
 	text-align: right;
 	position: relative;
@@ -50,8 +50,12 @@ header {
 .logo {
 	position: absolute;
 	z-index: 100;
-	left: 0;	
+	left: 0;
+	transform: rotate(10deg);
+	transition-property: all;
+	transition-duration: 3s;
 }
+
 header h1 {
 	font-size: 2.2em;
 	margin: 0 0 10px 0;
@@ -80,9 +84,6 @@ nav a {
 		0px -1px 1px rgba(000,000,000,0.2),
 		0px 1px 0px rgba(255,255,255,0.3);
 }
-
-/* пользовательские стили  */
-
 
 
 
