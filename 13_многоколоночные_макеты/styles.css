@@ -47,6 +47,12 @@ body {
 	font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;	
 }
 
+nav ul, header h1, footer p, .contentWrapper {
+	max-width: 1200px;
+	min-width: 960px;
+	margin: 0 auto;
+}
+
 header {
 	background-color:rgb(93,43,78); 
 	background-image: -webkit-linear-gradient(right, rgb(93,43,78), rgb(8,2,50));
