@@ -1,0 +1,8 @@
+.banner {
+	display: flex;
+	align-items: flex-end;
+}
+
+.logo {
+	margin-right: auto;
+}
